@@ -1,4 +1,4 @@
-# S05 — Банк паттернов для ADR (облегчённый)
+# S05 - Банк паттернов для ADR (облегчённый)
 
 > Как пользоваться:
 >
@@ -34,7 +34,7 @@
 **Когда:** угрозы S (краденый/повторно используемый токен), публичный периметр.
 **Decision:**
 
-* Access token TTL = **<15–30m>**, Refresh TTL = **<7–30d>**.
+* Access token TTL = **<15-30m>**, Refresh TTL = **<7-30d>**.
 * Key rotation (kid, JWKS), clock skew **<±60s>**.
 * Logout/blacklist refresh по событию.
   **Defaults:** short TTL, single audience, HTTPS only, secure/httponly cookies (если cookie-based).
@@ -209,7 +209,7 @@
 **Когда:** T/D (повторы запросов, сетевые сбои).
 **Decision:**
 
-* Для POST/PUT — обязательный `Idempotency-Key`; хранить окна **<24h>**.
+* Для POST/PUT - обязательный `Idempotency-Key`; хранить окна **<24h>**.
   **Defaults:** ключ в заголовке, hash тела.
   **Альтернативы:** серверное дедуплирование по контенту.
   **Consequences:** +отсутствие дублей; −хранилище ключей.

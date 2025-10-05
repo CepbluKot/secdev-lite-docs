@@ -1,4 +1,4 @@
-# S05 — ADR Template (облегчённый)
+# S05 - ADR Template (облегчённый)
 
 > Использование: создавайте **по одному файлу на решение**.
 > Рекомендуемое имя файла у студента: `SEMINARS/S05/S05_ADR_<slug>.md`
@@ -17,9 +17,9 @@
 
 ## 3) Context
 
-Кратко, но по делу (5–10 строк). Укажите:
+Кратко, но по делу (5-10 строк). Укажите:
 
-* **Risk-ID** (из `S04_risk_scoring.md`), его **L×I (1–5)** и почему он в топе.
+* **Risk-ID** (из `S04_risk_scoring.md`), его **L×I (1-5)** и почему он в топе.
 * **DFD элемент/поток** (из `S04_dfd.md`).
 * Связанные **NFR-ID** (из реестра S03).
 * Ограничения и предпосылки (архитектура, стек, регуляторные требования).
@@ -35,7 +35,7 @@ Assumptions: single public gateway; stateless services; no MTLS at client side
 
 ## 4) Decision (что делаем)
 
-Суть решения одним абзацем. Затем — конкретика параметров/политик списком:
+Суть решения одним абзацем. Затем - конкретика параметров/политик списком:
 
 * Параметр/политика 1 (значение/порог, область действия)
 * Параметр/политика 2 …
@@ -47,9 +47,9 @@ Assumptions: single public gateway; stateless services; no MTLS at client side
 
 Короткие пункты: альтернатива → почему не выбрали.
 
-* Alt A — причина отклонения (cost/complexity/low impact/latency/зависимости)
-* Alt B — причина отклонения
-* (опционально) Alt C — причина
+* Alt A - причина отклонения (cost/complexity/low impact/latency/зависимости)
+* Alt B - причина отклонения
+* (опционально) Alt C - причина
 
 ## 6) Consequences (последствия)
 
@@ -119,7 +119,7 @@ Assumptions: single public gateway; stateless services; no MTLS at client side
 Status: Proposed | Approved | Superseded
 
 ## Context
-Risk: <R-ID> (L=<1–5>, I=<1–5>, Score=<L×I>)
+Risk: <R-ID> (L=<1-5>, I=<1-5>, Score=<L×I>)
 DFD: <element/edge>
 NFR: <NFR-IDs>
 Assumptions: <short bullets>
@@ -131,8 +131,8 @@ Assumptions: <short bullets>
 - Notes: <boundaries/layer>
 
 ## Alternatives
-- <Alt A> — <why not>
-- <Alt B> — <why not>
+- <Alt A> - <why not>
+- <Alt B> - <why not>
 
 ## Consequences
 + <positive effect>
