@@ -102,13 +102,13 @@
 - [`seminars/S03/`](seminars/S03/) - NFR (Given-When-Then)
 - [`seminars/S04/`](seminars/S04/) - DFD + STRIDE + приоритизация
 - [`seminars/S05/`](seminars/S05/) - ADR для топ-рисков (архитектурные решения)
-- [`seminars/S06/`](seminars/S06/) - Secure Coding (чек-листы, «одна команда») - *делаем в репозитории из seed v2*
-- [`seminars/S07/`](seminars/S07/) - Containerization (Docker/Compose) - *делаем в репозитории из seed v2*
-- [`seminars/S08/`](seminars/S08/) - CI/CD Minimal (build+test, артефакты, логи) - *делаем в репозитории из seed v2*
-- [`seminars/S09/`](seminars/S09/) - SBOM/Dependencies (SCA)
-- [`seminars/S10/`](seminars/S10/) - SAST + Secrets (лайт)
-- [`seminars/S11/`](seminars/S11/) - DAST (лайт)
-- [`seminars/S12/`](seminars/S12/) - IaC/Policy/Container Security
+- [`seminars/S06/`](seminars/S06/) - Secure Coding (чек-листы, «одна команда») - *делаем в репозитории из seed S06-S08*
+- [`seminars/S07/`](seminars/S07/) - Containerization (Docker/Compose) - *делаем в репозитории из seed S06-S08*
+- [`seminars/S08/`](seminars/S08/) - CI/CD Minimal (build+test, артефакты, логи) - *делаем в репозитории из seed S06-S08*
+- [`seminars/S09/`](seminars/S09/) - SBOM/Dependencies (SCA) - *делаем в репозитории из seed S09-S12*
+- [`seminars/S10/`](seminars/S10/) - SAST + Secrets (лайт) - *делаем в репозитории из seed S09-S12*
+- [`seminars/S11/`](seminars/S11/) - DAST (лайт) - *делаем в репозитории из seed S09-S12*
+- [`seminars/S12/`](seminars/S12/) - IaC/Policy/Container Security - *делаем в репозитории из seed S09-S12*
 - [`seminars/S13/`](seminars/S13/) - Observability/Audit
 - [`seminars/S14/`](seminars/S14/) - Privacy/DPIA
 
@@ -120,7 +120,10 @@
 Нет. Для лайт-трека достаточно коммитов в `main`. Преподаватель смотрит `GRADING/*` и при необходимости `EVIDENCE/*`.
 
 **Где брать исходный код для S06-S08?**  
-В репозитории, созданном из шаблона seed v2: [secdev-seed-s06-s08](https://github.com/hse-secdev-2025-fall/secdev-seed-s06-s08). Все шаги S06-S08 делаем **в этом же репозитории**.
+В репозитории, созданном из шаблона seed: [secdev-seed-s06-s08](https://github.com/hse-secdev-2025-fall/secdev-seed-s06-s08). Все шаги S06-S08 делаем **в этом же репозитории**.
+
+**Где брать исходный код для S09-S12?**  
+В репозитории, созданном из шаблона seed: [secdev-seed-s09-s12](https://github.com/hse-secdev-2025-fall/secdev-seed-s09-s12). Все шаги S09-S12 делаем **в этом же репозитории**.
 
 **Сроки сдачи?**  
 Ориентируйтесь на объявления преподавателя/в LMS. В этом репозитории сроков нет.
